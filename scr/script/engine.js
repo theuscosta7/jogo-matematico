@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (btnJogar) {
         btnJogar.addEventListener('click', function () {
-            window.location.href = '/pages/game.html';
+            window.location.href = './scr/pages/game.html';
         });
     }
 });
