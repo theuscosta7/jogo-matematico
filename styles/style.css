@@ -1,0 +1,197 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    background-image: url("/images/background.png");
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin-top: -180px;
+    font-size: 30px;
+
+    color: #0072ff;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin-top: -10px;
+    font-size: 20px;
+
+    color: #0072ff;
+}
+
+#btnJogar {
+    display: block;
+    margin: 20px auto;
+
+
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-family: "Momo Trust Display", sans-serif;
+    font-size: 20px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 12px;
+    letter-spacing: 2px;
+
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#btnJogar:hover {
+    background: linear-gradient(135deg, #33ccff, #0099ff);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.subtitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin-top: -180px;
+    font-size: 30px;
+
+    color: #0072ff;
+}
+
+#question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px;
+    margin-top: -10px;
+    font-size: 30px;
+
+    color: #0072ff;
+}
+
+#answer {
+    display: block;
+    margin: 10px auto;
+    padding: 12px 20px;
+    width: 250px;
+    font-size: 15px;
+    text-align: center;
+
+    border: 2px solid #0072ff;
+    border-radius: 12px;
+    outline: none;
+
+    background-color: rgba(255, 255, 255, 0.85);
+    color: #0072ff;
+
+    font-family: "Momo Trust Display", sans-serif;
+    letter-spacing: 1px;
+
+    box-shadow: 0 3px 10px rgba(0, 114, 255, 0.2);
+    transition: all 0.3s ease;
+}
+
+#answer:focus {
+    background-color: #eaf4ff;
+    border-color: #00c6ff;
+    box-shadow: 0 0 15px rgba(0, 114, 255, 0.5);
+    transform: scale(1.05);
+}
+
+
+#btnResponder {
+    display: block;
+    margin: 20px auto;
+
+
+    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    color: white;
+    font-family: "Momo Trust Display", sans-serif;
+    font-size: 20px;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 12px;
+    letter-spacing: 2px;
+
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+#btnResponder:hover {
+    background: linear-gradient(135deg, #33ccff, #0099ff);
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+#score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 10px;
+    margin-top: -10px;
+    font-size: 20px;
+
+    color: #0072ff;
+}
+
+
+.num-keyboard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    background-color: #f5f5f5;
+    border-radius: 15px;
+    padding: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 450px;
+    margin: 0 auto;
+}
+
+.key {
+    flex: 1 0 60px;
+    max-width: 65px;
+    background-color: #fff;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    padding: 10px;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+
+.key:hover {
+    background-color: #d8ffd8;
+    transform: scale(1.05);
+}
+
+#keyBack {
+    background-color: #ffe6e6;
+    border-color: #f99;
+}
+
+#keyBack:hover {
+    background-color: #ffbaba;
+}

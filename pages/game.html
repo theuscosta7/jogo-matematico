@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/reset.css">
+    <link rel="stylesheet" href="/styles/style.css">
+
+    <link rel="icon" href="/images/logo.webp">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Momo+Trust+Display&family=Press+Start+2P&display=swap"
+        rel="stylesheet">
+
+    <title>Matemáteca</title>
+</head>
+
+<body>
+    <main class="page">
+        <section class="section2">
+            <h1 class="subtitle"> Quanto é...? </h1>
+
+            <article class="question-box">
+                <p id="question"> 5 + 3 = ? </p>
+
+                <input type="number" id="answer" placeholder="Digite sua resposta:">
+                <button id="btnResponder"> Responder </button>
+
+                <p id="feedback"></p>
+                <p id="score"> Pontuação: 0 </p>
+            </article>
+
+            <article class="numKeyboard">
+                <button class="key"> 1 </button>
+                <button class="key"> 2 </button>
+                <button class="key"> 3 </button>
+                <button class="key"> 4 </button>
+                <button class="key"> 5 </button>
+                <button class="key"> 6 </button>
+                <button class="key"> 7 </button>
+                <button class="key"> 8 </button>
+                <button class="key"> 9 </button>
+                <button class="key"> 0 </button>
+            </article>
+        </section>
+    </main>
+
+    <script src="../script/game.js"></script>
+
+</body>
+
+</html>
